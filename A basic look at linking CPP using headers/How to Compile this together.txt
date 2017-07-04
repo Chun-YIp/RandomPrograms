@@ -1,0 +1,6 @@
+First compile each of the files individually:
+	gcc -c add.cpp
+	gcc -c main.cpp
+
+Then compile the .o files together
+	gcc add.o main.o
